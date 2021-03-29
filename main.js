@@ -1,26 +1,10 @@
-var numeroSecreto = parseInt(Math.random() * 10); 
-var tentativas = 3; 
+var listaFilmes = ["https://m.media-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_UX182_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BMTkzMjgwMDg1M15BMl5BanBnXkFtZTcwMTgzNTI1OA@@._V1_UX182_CR0,0,182,268_AL_.jpg"];
 
-while (tentativas > 0) {
-  var chute = parseInt(prompt("Digite um número entre 0 e 10:"));
+listaFilmes.push("https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_UX182_CR0,0,182,268_AL_.jpg");
 
-  if (numeroSecreto == chute) {
-    alert("Acertou! O número secreto é " + numeroSecreto + ".");
-    break;
-  } else if (chute > numeroSecreto) {
-    alert("O número secreto é menor que " + chute + ".");
-    tentativas--; 
-  } else if (chute < numeroSecreto) {
-    alert("O número secreto é maior que " + chute + ".");
-    tentativas--; 
-  } 
-} 
-
-if (chute != numeroSecreto) {
-  alert("Suas tentativas acabaram! O número secreto era " + numeroSecreto + ".");
+for (var i = 0; i < listaFilmes.length; i++) {
+  document.write("<img class='movies' src=" + listaFilmes[i] + "/>");
 }
-
-
 
 
 
