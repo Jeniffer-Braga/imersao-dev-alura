@@ -64,6 +64,7 @@ divCartaJogador.innerHTML = moldura + nome + html + opcoesTexto + '</div>';
 
 function pegarAtributoSelecionado() {
 var radioAtributo = document.getElementsByName('atributo');
+
 for (var i = 0; i < radioAtributo.length; i++) {
   if (radioAtributo[i].checked) {
     return radioAtributo[i].value;
