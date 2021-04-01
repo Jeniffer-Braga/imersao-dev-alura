@@ -27,12 +27,12 @@ button {
   font-size: 1rem;
 }
 
-#btnProximaRodada {
-  width: 12rem;
-}
-
 #btnSortear {
   margin: 0.3rem;
+}
+
+#btnProximaRodada {
+  width: 12rem;
 }
 
 h2 {

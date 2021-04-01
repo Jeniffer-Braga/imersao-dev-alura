@@ -130,8 +130,8 @@ var cartas = [carta0, carta1, carta2, carta3, carta4, carta5, carta6, carta7, ca
 var cartaMaquina; 
 var cartaJogador;
 
-var pontosJogador = 0;
 var pontosMaquina = 0;
+var pontosJogador = 0;
 
 atualizarQuantidadeCartas();
 
