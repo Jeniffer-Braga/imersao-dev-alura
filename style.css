@@ -1,0 +1,62 @@
+body {
+    background-color: #FBF653;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+section {
+    background-color: #FFFFFF;
+    max-width: 500px;
+    display: block;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 1px 14px 0px rgba(0,0,0,0.66);
+}
+  
+header {
+    background-image: url('https://www.zastavki.com/pictures/640x480/2014Nature___Flowers_Field_of_daisies_081977_29.jpg');
+    background-size: cover;
+    height: 100px; 
+}
+  
+header, div {
+    border-radius: 5px;
+}
+  
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+    border: 8px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-36%);
+}
+  
+section h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+  
+div {
+    background-color: #E0E0E0;
+    border: 1px solid black;  
+    padding: 15px;
+}
+  
+div h2 {
+    font-size: 16px;
+    text-align: center; 
+}
+  
+a {
+    color: #000000;
+    text-decoration: none;
+}
+  
+a:hover {
+    color:#000000;
+    text-decoration:underline;
+}
